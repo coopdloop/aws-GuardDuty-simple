@@ -1,0 +1,20 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "guardduty:*",
+                "securityhub:*",
+                "cloudtrail:*",
+                "sns:*",
+                "cloudwatch:*",
+                "lambda:*",
+                "iam:GetRole",
+                "iam:CreateRole",
+                "iam:PutRolePolicy"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
